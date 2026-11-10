@@ -13,14 +13,14 @@ A recommendation system that ranks movies for each user, compares four approache
 ## Results (test set, last 20% of each user's history)
 | Model | NDCG@10 | Hit rate@10 | Coverage |
 |---|---|---|---|
-| Random | 0.xx | 0.xx | 0.xx |
-| Popularity | 0.xx | 0.xx | 0.xx |
-| Content-based | 0.xx | 0.xx | 0.xx |
-| Item-based CF | 0.xx | 0.xx | 0.xx |
-| SVD | 0.xx | 0.xx | 0.xx |
-| Hybrid | 0.xx | 0.xx | 0.xx |
+| Random | 0.0057 | 0.0390 | 0.8110 |
+| Popularity | 0.0688 | 0.2983 | 0.0156 |
+| Content-based | 0.0128 | 0.0966 | 0.6107 |
+| Item-based CF | 0.1049 | 0.4169 | 0.1477 |
+| SVD | 0.0979 | 0.4000 | 0.1545 |
+| Hybrid | 0.1123 | 0.4322 | 0.1436 |
 
-Rating prediction RMSE: global mean 0.xx, user mean 0.xx, SVD 0.xx
+Rating prediction RMSE: global mean 1.048, user mean 0.957, SVD 0.938
 
 ![Model comparison](outputs/model_comparison.png)
 ![App screenshot](outputs/app_screenshot.png)
